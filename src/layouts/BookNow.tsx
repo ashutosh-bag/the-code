@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState, useEffect } from "react"
 import { Check, ChevronRight, Calendar, Users, CreditCard } from "lucide-react"
-import { useRouter } from "next/navigation"
+
 
 // Room data
 const roomOptions = [
@@ -22,7 +22,7 @@ const guestOptions = [
 ]
 
 export default function BookNow() {
-  const router = useRouter()
+
   const [currentStep, setCurrentStep] = useState(1)
   const [formData, setFormData] = useState({
     checkInDate: "",

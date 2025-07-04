@@ -36,7 +36,7 @@ export default function Experiences() {
         <h2 className="text-4xl md:text-5xl text-[#dfc79d] font-serif  text-center mb-4">Curated Experiences</h2>
         <p className="text-center max-w-3xl mx-auto text-[#dfc79d] mb-16">
           Discover our collection of exclusive experiences designed to elevate your stay and create memories that linger
-          long after you've checked out.
+          long after {`you've`} checked out.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-6">

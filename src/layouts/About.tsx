@@ -50,18 +50,18 @@ export default function About() {
                 <p className="text-gray-300 text-lg">
                   Nestled in the heart of the city yet feeling worlds away, our boutique hotel stands as a testament to 
                   refined elegance and discreet opulence. We believe in the power of quiet luxury—the kind that 
-                  doesn't announce itself loudly, but reveals itself in the smallest details to those who know how to 
+                  {`doesn't`} announce itself loudly, but reveals itself in the smallest details to those who know how to 
                   look.
                 </p>
                 
                 <blockquote className="border-l-2 border-[#dcbe8b] pl-6 italic text-[#dcbe8b] my-8">
-                  "Like a well-kept secret, The Code reveals itself only to those who seek a deeper understanding of 
-                  what true luxury means."
+                  {`"Like a well-kept secret, The Code reveals itself only to those who seek a deeper understanding of 
+                  what true luxury means."`}
                 </blockquote>
                 
                 <p className="text-gray-300 text-lg">
                   We invite you to be one of the select few who discover what makes The Code not just a hotel, but an 
-                  experience that stays with you long after you've returned home.
+                  experience that stays with you long after {`you've`} returned home.
                 </p>
               </div>
               
