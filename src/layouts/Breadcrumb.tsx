@@ -39,7 +39,7 @@ export default function Breadcrumb() {
         <div className="absolute inset-0">
           {/* Background image */}
           <Image
-            src="/assets/7.jpg"
+            src="/assets/bread.jpeg"
             alt="Luxury beachfront resort with pool"
             fill
             priority

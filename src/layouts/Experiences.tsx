@@ -12,15 +12,15 @@ const experienceData = [
     alt: "Fine Dining Experience",
   },
   {
-    title: "Spa Retreat",
+    title: "Hooka ",
     description:
       "Rejuvenate at our luxurious spa featuring customized treatments, a thermal suite, and meditation spaces.",
-    image: "/assets/3.jpeg",
+    image: "/assets/hooka.jpg",
     icon: Droplet,
     alt: "Spa Retreat Experience",
   },
   {
-    title: "Rooftop Bar",
+    title: "Rooftop Cafe",
     description:
       "Sip signature cocktails at our exclusive rooftop bar while enjoying panoramic city views and live jazz.",
     image: "/assets/6.jpg",

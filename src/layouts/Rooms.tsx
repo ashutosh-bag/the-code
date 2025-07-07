@@ -5,7 +5,7 @@ import Image from "next/image"
 
 const roomsData = [
   {
-    name: "Deluxe City View",
+    name: "The Classic  Room",
     description:
       "Elegant room with stunning city views, featuring modern amenities and comfortable furnishings. Perfect for business travelers and couples seeking luxury.",
     images: [
@@ -16,18 +16,18 @@ const roomsData = [
     ],
     size: "35 sq.m",
     guests: "Up to 2",
-    price: "$280 / night",
-    amenities: ["City View", "Free WiFi", "Air Conditioning", "Mini Bar", "Room Service"],
+    price: "₹1500 / night",
+    amenities: ["City View", "Free WiFi", "Air Conditioning", "OTT Platforms", "Room Service"],
   },
  
   {
-    name: "Executive Suite",
+    name: "The Deluxe Room",
     description:
       "Luxurious suite with separate living area, premium furnishings, and exclusive amenities. Ideal for extended stays and special occasions.",
     images: [ "/assets/executivesuite/Entrance.jpg", "/assets/executivesuite/Room.jpg","/assets/executivesuite/Room(1).jpg","/assets/executivesuite/Room(2).jpg","/assets/executivesuite/Room(3).jpg","/assets/executivesuite/Room(4).jpg","/assets/executivesuite/Bathroom.jpg",],
     size: "65 sq.m",
     guests: "Up to 3",
-    price: "$580 / night",
+    price: "₹1800 / night",
     amenities: [
       "Separate Living Area",
       "Executive Lounge Access",
@@ -37,20 +37,36 @@ const roomsData = [
     ],
   },
   {
-    name: "Super Deluxe Presidential",
+    name: "The Super Deluxe Room",
     description:
       "The pinnacle of luxury featuring panoramic views, premium amenities, and personalized service. Our most exclusive accommodation experience.",
     images: [
       "/assets/superdeluxepresidential/Room.jpg",
       "/assets/superdeluxepresidential/Room(1).jpg",
-      "/assets/superdeluxepresidential/Room(2)jpg",
+       
       "/assets/superdeluxepresidential/Room(3).jpg",
       "/assets/superdeluxepresidential/Bathroom.jpg",
     ],
     size: "95 sq.m",
     guests: "Up to 4",
-    price: "$950 / night",
-    amenities: ["Panoramic Views", "Butler Service", "Private Terrace", "Jacuzzi", "Premium Dining"],
+    price: "₹2200 / night",
+    amenities: ["Panoramic Views", "Butler Service", "Private Terrace", "Jacuzzi", "Premium Dining" , "OTT Platforms"],
+  },
+   {
+    name: "The Party Room",
+    description:
+      "The pinnacle of luxury featuring panoramic views, premium amenities, and personalized service. Our most exclusive accommodation experience.",
+    images: [
+      "/assets/superdeluxepresidential/Room.jpg",
+      "/assets/superdeluxepresidential/Room(1).jpg",
+      
+      "/assets/superdeluxepresidential/Room(3).jpg",
+      "/assets/superdeluxepresidential/Bathroom.jpg",
+    ],
+    size: "95 sq.m",
+    guests: "Up to 4",
+    price: "₹5000 / night",
+    amenities: ["Panoramic Views", "Butler Service", "Private Terrace", "Jacuzzi", "Premium Dining" , "OTT Platforms" ,"Hooka"],
   },
 ]
 
