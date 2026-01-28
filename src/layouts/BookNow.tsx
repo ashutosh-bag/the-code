@@ -8,7 +8,7 @@ export default function BookNow() {
           Ready to Book Your Stay?
         </h2>
         <p className="text-gray-300 text-lg mb-8">
-          We’re just a message away. Please click the WhatsApp icon at the bottom right to book your room, ask questions, or check availability.
+         {` We’re`} just a message away. Please click the WhatsApp icon at the bottom right to book your room, ask questions, or check availability.
         </p>
 
         <div className="bg-[#111113] border border-gray-800 rounded-sm p-6 text-left text-sm text-gray-400 max-w-md mx-auto">
